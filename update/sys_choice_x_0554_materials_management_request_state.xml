@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_0554_materials_management_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Materials Management Request initiator is not done describing the work</hint>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_0554_materials_management_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>brian.huber@aptris.com</sys_created_by>
+            <sys_created_on>2017-07-21 13:02:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5a7d2564f000300624a3fb28110c7e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brian.huber@aptris.com</sys_updated_by>
+            <sys_updated_on>2017-07-21 13:02:43</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Materials Management Request has been described by initiator and can be processed by approver</hint>
+            <inactive>false</inactive>
+            <label>Awaiting Approval</label>
+            <language>en</language>
+            <name>x_0554_materials_management_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>brian.huber@aptris.com</sys_created_by>
+            <sys_created_on>2017-07-21 13:02:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1da7d2564f000300624a3fb28110c7e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brian.huber@aptris.com</sys_updated_by>
+            <sys_updated_on>2017-07-21 13:02:43</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Materials Management Request has been approved</hint>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_0554_materials_management_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>brian.huber@aptris.com</sys_created_by>
+            <sys_created_on>2017-07-21 13:02:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15a7d2564f000300624a3fb28110c7f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brian.huber@aptris.com</sys_updated_by>
+            <sys_updated_on>2017-07-21 13:02:43</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Materials Management Request has been fully described by initiator and can be processed by qualifier</hint>
+            <inactive>false</inactive>
+            <label>Awaiting Qualification</label>
+            <language>en</language>
+            <name>x_0554_materials_management_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>brian.huber@aptris.com</sys_created_by>
+            <sys_created_on>2017-07-21 13:02:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1da7d2564f000300624a3fb28110c7fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brian.huber@aptris.com</sys_updated_by>
+            <sys_updated_on>2017-07-21 13:02:43</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Materials Management Request is fully qualified but work has not started yet</hint>
+            <inactive>false</inactive>
+            <label>Ready</label>
+            <language>en</language>
+            <name>x_0554_materials_management_request</name>
+            <sequence>4</sequence>
+            <sys_created_by>brian.huber@aptris.com</sys_created_by>
+            <sys_created_on>2017-07-21 13:02:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>95a716564f000300624a3fb28110c700</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brian.huber@aptris.com</sys_updated_by>
+            <sys_updated_on>2017-07-21 13:02:43</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Task is assigned, pending staff acceptance</hint>
+            <inactive>false</inactive>
+            <label>Assigned</label>
+            <language>en</language>
+            <name>x_0554_materials_management_request</name>
+            <sequence>5</sequence>
+            <sys_created_by>brian.huber@aptris.com</sys_created_by>
+            <sys_created_on>2017-07-21 13:02:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91a716564f000300624a3fb28110c705</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brian.huber@aptris.com</sys_updated_by>
+            <sys_updated_on>2017-07-21 13:02:43</sys_updated_on>
+            <value>16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Work has started</hint>
+            <inactive>false</inactive>
+            <label>Work In Progress</label>
+            <language>en</language>
+            <name>x_0554_materials_management_request</name>
+            <sequence>6</sequence>
+            <sys_created_by>brian.huber@aptris.com</sys_created_by>
+            <sys_created_on>2017-07-21 13:02:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11a716564f000300624a3fb28110c70a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brian.huber@aptris.com</sys_updated_by>
+            <sys_updated_on>2017-07-21 13:02:43</sys_updated_on>
+            <value>18</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Work has been completed to specification</hint>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_0554_materials_management_request</name>
+            <sequence>7</sequence>
+            <sys_created_by>brian.huber@aptris.com</sys_created_by>
+            <sys_created_on>2017-07-21 13:02:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5a716564f000300624a3fb28110c71b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brian.huber@aptris.com</sys_updated_by>
+            <sys_updated_on>2017-07-21 13:02:43</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Work could not be completed as specified</hint>
+            <inactive>false</inactive>
+            <label>Closed Incomplete</label>
+            <language>en</language>
+            <name>x_0554_materials_management_request</name>
+            <sequence>8</sequence>
+            <sys_created_by>brian.huber@aptris.com</sys_created_by>
+            <sys_created_on>2017-07-21 13:02:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>59a716564f000300624a3fb28110c720</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brian.huber@aptris.com</sys_updated_by>
+            <sys_updated_on>2017-07-21 13:02:44</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Materials Management Request has been cancelled</hint>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_0554_materials_management_request</name>
+            <sequence>9</sequence>
+            <sys_created_by>brian.huber@aptris.com</sys_created_by>
+            <sys_created_on>2017-07-21 13:02:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5da716564f000300624a3fb28110c725</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brian.huber@aptris.com</sys_updated_by>
+            <sys_updated_on>2017-07-21 13:02:44</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_0554_materials_management_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>brian.huber@aptris.com</sys_created_by>
+            <sys_created_on>2017-07-21 13:02:43</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>59a7d2564f000300624a3fb28110c7e3</sys_id>
+            <sys_mod_count>20</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Materials Management" source="x_0554_materials">d8a712d24f000300624a3fb28110c7d0</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Materials Management">d8a712d24f000300624a3fb28110c7d0</sys_scope>
+            <sys_update_name>sys_choice_x_0554_materials_management_request_state</sys_update_name>
+            <sys_updated_by>brian.huber@aptris.com</sys_updated_by>
+            <sys_updated_on>2017-07-21 13:03:31</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

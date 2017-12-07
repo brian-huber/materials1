@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmdb_servicetask_product_model" label="Materials Management Task Template" max_length="40" name="x_0554_materials_management_task_template" type="collection"/>
+</database>

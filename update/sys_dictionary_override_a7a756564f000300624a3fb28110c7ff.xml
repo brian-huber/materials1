@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="INSERT_OR_UPDATE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value>javascript: new global.StateFlow().processFlow(current, '67a756564f000300624a3fb28110c7fd');</default_value>
+        <default_value_override>true</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>state</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_0554_materials_management_task</name>
+        <read_only>true</read_only>
+        <read_only_override>true</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>brian.huber@aptris.com</sys_created_by>
+        <sys_created_on>2017-07-21 13:02:52</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a7a756564f000300624a3fb28110c7ff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="Materials Management" source="x_0554_materials">d8a712d24f000300624a3fb28110c7d0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Materials Management">d8a712d24f000300624a3fb28110c7d0</sys_scope>
+        <sys_update_name>sys_dictionary_override_a7a756564f000300624a3fb28110c7ff</sys_update_name>
+        <sys_updated_by>brian.huber@aptris.com</sys_updated_by>
+        <sys_updated_on>2017-07-21 13:02:53</sys_updated_on>
+    </sys_dictionary_override>
+</record_update>
